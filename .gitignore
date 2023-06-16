@@ -1,0 +1,11 @@
+/*
+
+!.gitignore
+!early-init.el
+!init.el
+
+!etc/
+etc/*
+!etc/themes/
+
+!modules/
