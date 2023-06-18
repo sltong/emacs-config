@@ -1,0 +1,4 @@
+#+title: Emacs Configuration
+#+author: Lao Tong
+
+These are my configuration files for Emacs.

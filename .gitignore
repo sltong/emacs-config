@@ -1,11 +1,13 @@
 /*
 
 !.gitignore
+!README.org
+!LICENSE
 !early-init.el
 !init.el
+
+!modules/
 
 !etc/
 etc/*
 !etc/themes/
-
-!modules/
