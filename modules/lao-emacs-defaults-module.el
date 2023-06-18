@@ -86,12 +86,6 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file t)
 
-(setq backup-directory-alist
-      `(("." . ,(no-littering-expand-var-file-name "backups/"))))
-
-(setq auto-save-file-name-transforms
-      `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
-
 (setq custom-theme-directory (concat user-emacs-directory "etc/themes/"))
 (load-theme 'minerva t)
 

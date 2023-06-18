@@ -40,6 +40,12 @@
 
 (use-package no-littering :init)
 
+(setq backup-directory-alist
+      `(("." . ,(no-littering-expand-var-file-name "backups/"))))
+
+(setq auto-save-file-name-transforms
+      `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
+
 ;; debugging
 (when init-file-debug
   (setq use-package-verbose t
