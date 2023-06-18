@@ -84,7 +84,7 @@
 
 ;; file and directory configurations
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(load custom-file)
+(load custom-file t)
 
 (setq backup-directory-alist
       `(("." . ,(no-littering-expand-var-file-name "backups/"))))
