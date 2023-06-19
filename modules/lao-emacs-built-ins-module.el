@@ -123,7 +123,7 @@
         org-highlight-latex-and-related '(native script entities)))
 
 (use-package tex
-  :ensure auctex
+  :ensure nil
   :config
   (setq TeX-auto-save t
         TeX-parse-self t)
