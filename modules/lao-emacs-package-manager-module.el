@@ -1,7 +1,7 @@
 ;;; lao-emacs-package-manager-module.el --- Emacs package management -*- lexical-binding: t; -*-
 
 (require 'package)
-(setq package-quickstart t)
+;; (setq package-quickstart t)
 
 (require 'use-package)
 (setq use-package-always-ensure t)
@@ -11,7 +11,7 @@
 (add-to-list 'package-archives '("elpa-devel" . "https://elpa.gnu.org/devel/"))
 
 (setq package-archive-priorities
-      '(("elpa" . 3)
+      '(("gnu" . 3)
         ("melpa" . 2)
         ("nongnu" . 1)
         ("elpa-devel" . 0)))
